@@ -1,0 +1,400 @@
+digraph GrodnoCompanies_Jobs 
+{
+    node [shape=plaintext ];
+
+	"." [label=<<TABLE border="0"> 
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"></TD></TR>
+	<TR><TD></TD></TR>
+	 </TABLE>>];
+ 	
+	Java [  label=<<TABLE style="rounded"> 
+	
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0" ><IMG SRC="icons/java.png"/></TD></TR>
+	<TR><TD border="0">Java </TD></TR>
+	    </TABLE>>];
+
+	".Net" [label=<<TABLE style="rounded">
+    <TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/net.png"/></TD></TR>
+    <TR><TD border="0">.Net</TD></TR>
+	    </TABLE>>];
+	
+	"React.js" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="90" HEIGHT="90" border="0"><IMG SRC="icons/react.png"/></TD></TR>
+	<TR><TD border="0">React.js</TD></TR>
+		    </TABLE>>];
+	
+	DevOps [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0"><IMG SRC="icons/devops.png"/></TD></TR>
+	<TR><TD border="0">DevOps</TD></TR>
+    </TABLE>>];
+		
+    "Node.js" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="100" HEIGHT="70" border="0"><IMG SRC="icons/node.js.png"/></TD></TR>
+	<TR><TD border="0">Node.js</TD></TR>
+	</TABLE>>];
+	
+	"PHP" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/php.png"/></TD></TR>
+	<TR><TD border="0">PHP</TD></TR>
+    </TABLE>>];
+		
+	"C#" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/c_sharp.png"/></TD></TR>
+	<TR><TD border="0">"C#"</TD></TR>
+	</TABLE>>];
+	
+	Magento [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/magento.png"/></TD></TR>
+	<TR><TD border="0">Magento</TD></TR>
+		    </TABLE>>];	
+	
+	"Full Stack" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/fullstack.png"/></TD></TR>
+	<TR><TD border="0">Full Stack</TD></TR>
+		    </TABLE>>];
+			
+	"IT sales manager" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="100" HEIGHT="90" border="0"><IMG SRC="icons/it.jpg"/></TD></TR>
+	<TR><TD border="0">IT sales manager</TD></TR>
+		    </TABLE>>];
+
+	QA [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/qa.png"/></TD></TR>
+	<TR><TD border="0">QA</TD></TR>
+    </TABLE>>];
+	
+	"System Administrator" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/sys admin.png"/></TD></TR>
+	<TR><TD border="0">System Administrator</TD></TR>
+	</TABLE>>];
+				
+	"Frontend" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/frontend.png"/></TD></TR>
+	<TR><TD border="0">Frontend</TD></TR>
+    </TABLE>>];
+			
+	Ruby [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/ruby.png"/></TD></TR>
+	<TR><TD border="0">Ruby</TD></TR>
+		    </TABLE>>];
+			
+	Python [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/python.png"/></TD></TR>
+	<TR><TD border="0">Python</TD></TR>
+		    </TABLE>>];
+		
+	"HR" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/hr.png"/></TD></TR>
+	<TR><TD border="0">HR</TD></TR>
+		    </TABLE>>];
+	iOS [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/ios.png"/></TD></TR>
+	<TR><TD border="0">iOS</TD></TR>
+		    </TABLE>>];
+			
+	"Data Scientist" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/data scientist.png"/></TD></TR>
+	<TR><TD border="0">Data Scientist</TD></TR>
+		    </TABLE>>];
+	
+	"Mobile Web Applications" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="60" HEIGHT="80" border="0"><IMG SRC="icons/mob web app.png"/></TD></TR>
+	<TR><TD border="0">Mobile Web Applications </TD></TR>
+		    </TABLE>>];
+	
+	Hypris [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/hypris.png"/></TD></TR>
+	<TR><TD border="0">Hypris</TD></TR>
+		    </TABLE>>];
+    Linux [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/linux.png"/></TD></TR>
+	<TR><TD border="0">Linux</TD></TR>
+		    </TABLE>>];
+		
+	Go [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/go.png"/></TD></TR>
+	<TR><TD border="0">Go</TD></TR>
+		    </TABLE>>];
+			
+	Blockchain [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/blockchain.png"/></TD></TR>
+	<TR><TD border="0">Blockchain</TD></TR>
+		    </TABLE>>];
+			
+	"Angular2" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/angular2.png"/></TD></TR>
+	<TR><TD border="0">Angular2</TD></TR>
+		    </TABLE>>];
+			
+	"Project manager" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/pm.jpg"/></TD></TR>
+	<TR><TD border="0">Project manager</TD></TR>
+		    </TABLE>>];
+	
+	Android [label=<<TABLE style="rounded"> 
+    <TR><TD FIXEDSIZE="true" width="60" HEIGHT="70" border="0"><IMG SRC="icons/android.png"/></TD></TR>
+    <TR><TD border="0">Android</TD></TR>
+    </TABLE>>];
+			
+	"Business Analyst" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="70" HEIGHT="70" border="0"><IMG SRC="icons/ba.png"/></TD></TR>
+	<TR><TD border="0">"Business Analyst"</TD></TR>
+		    </TABLE>>];
+			
+	"1C" [label=<<TABLE style="rounded">
+	<TR><TD FIXEDSIZE="true" width="100" HEIGHT="70" border="0"><IMG SRC="icons/1c.png"/></TD></TR>
+	<TR><TD border="0">1C</TD></TR>
+		    </TABLE>>];
+
+	
+	
+	struct1 [label=<<TABLE border="2" bgcolor="azure3" color="azure3" style="rounded">
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/instinctools.png"/>	</TD></TR>
+	<TR><TD port="instinctools" href="https://www.instinctools.by/"> <FONT POINT-SIZE="18.0">Instinctools</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">	
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/epam.png"/>	</TD></TR>
+	<TR><TD port="epam" href="https://www.epam.com"> <FONT POINT-SIZE="18.0">Epam Systems</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/exposit.png"/>	</TD></TR>
+	<TR><TD port="exposit" href="https://www.exposit.com"> <FONT POINT-SIZE="18.0">Exposit</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/exadel.png"/>	</TD></TR>
+	<TR><TD port="exadel" href="https://www.exadel.com"> <FONT POINT-SIZE="18.0">Exadel</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/softservise.png"/>	</TD></TR>
+	<TR><TD port="softservise" href="https://www.softservise.by"> <FONT POINT-SIZE="18.0">Softservise</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/ITechArt.png"/>	</TD></TR>
+	<TR><TD port="ITechArt" href="https://www.ITechArt.com"> <FONT POINT-SIZE="18.0">ITechArt</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/senla.jpg"/>	</TD></TR>
+	<TR><TD port="senla" href="https://www.senlainc.com"> <FONT POINT-SIZE="18.0">Senla</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/godel.png"/>	</TD></TR>
+	<TR><TD port="godel" href="https://www.godeltech.com"> <FONT POINT-SIZE="18.0">Godel</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/intexsoft.png"/>	</TD></TR>
+	<TR><TD port="intexsoft" href="https://www.intexsoft.com"> <FONT POINT-SIZE="18.0">Intexsoft</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/academic.png"/>	</TD></TR>
+	<TR><TD port="academic" href="https://www.eservice.by"> <FONT POINT-SIZE="18.0">Academ&amp;C</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/specific.jpg"/>	</TD></TR>
+	<TR><TD port="specific" href="https://www.specific-group.by"> <FONT POINT-SIZE="18.0">Specific-Group</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/tispr.png"/>	</TD></TR>
+	<TR><TD port="tispr" href="https://www.tispr.com"> <FONT POINT-SIZE="18.0">Tispr</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/itransition.png"/>	</TD></TR>
+	<TR><TD port="itransition" href="https://www.itransition.com"> <FONT POINT-SIZE="18.0">iTransition</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/bytech.jpg"/>	</TD></TR>
+	<TR><TD port="bytech" href="https://www.itransition.com"> <FONT POINT-SIZE="18.0">ByTechSolution</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/cogniteq.png"/>	</TD></TR>
+	<TR><TD port="cogniteq" href="https://www.cogniteq.com"> <FONT POINT-SIZE="18.0">Cogniteq</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	<tr><td>
+	<TABLE BGCOLOR="white">
+	<TR><TD FIXEDSIZE="true" width="140" HEIGHT="70" border="0">	<IMG scale="true" SRC="logos/yellow_sq.png"/>	</TD></TR>
+	<TR><TD port="cogniteq" href="https://yellowsquare.by/"> <FONT POINT-SIZE="18.0">Yellow Square</FONT>	</TD></TR>
+	</TABLE></td>
+	</tr>
+	
+	
+	</TABLE>>];
+
+
+edge [penwidth="3" color=skyblue2]	
+struct1:epam -> 
+{
+	".Net"
+	Android
+	Java
+	Hypris
+	Linux
+	DevOps
+	"Mobile Web Applications"
+	QA
+	iOS
+}
+
+edge [color=blue]
+struct1:exadel -> 
+{
+	".Net"
+	Python	
+	Java	
+}
+
+edge [color=orange]	
+struct1:exposit -> 
+{
+	"Mobile Web Applications"
+	Java
+	"Node.js"
+	"Business Analyst"
+	"Project manager"
+	Python
+	"Data Scientist"
+	QA
+	PHP
+	Frontend
+}
+
+edge [color=cornflowerblue]
+struct1:instinctools -> 
+{
+	QA
+	Python
+	Go
+	Java
+	Blockchain
+	"Node.js"
+	Frontend
+	"Angular2"
+}
+
+edge [color=darkslategray]
+struct1:intexsoft -> 
+{
+	Java	
+	"IT sales manager"	
+	"Business Analyst"	
+	Frontend	
+	PHP	
+	"Node.js"	
+	QA	
+	Android	
+}
+
+edge [color=red]
+struct1:ITechArt -> 
+{
+	Frontend
+	"Node.js"
+	PHP
+	Python
+	".Net"
+	Java
+	HR
+	Android
+	iOS
+	Ruby
+	DevOps
+}
+
+edge [color=seagreen]
+struct1:itransition -> 
+{
+	".Net"
+	Frontend
+	Magento
+	"Full Stack"
+	PHP
+	"C#"
+}
+
+edge [color=mediumblue]
+struct1:senla -> 
+{
+	"System Administrator"
+	Android	
+}	
+	
+edge [color=dodgerblue]
+struct1:softservise -> 
+	"1C" 
+
+edge [color=green]	
+struct1:academic ->
+	"1C"
+	
+edge [color=darkslateblue]
+struct1:specific -> 
+{
+	DevOps
+	Frontend
+}
+
+edge [color=slateblue]
+struct1:tispr -> 
+{
+	DevOps 
+	Frontend
+	QA
+}
+
+edge [color=red]
+struct1:godel -> 
+{
+	"React.js"
+	Frontend
+	".Net"
+	"Business Analyst"
+}
+
+struct1:godel -> "." [color=white];
+}
