@@ -1,0 +1,46 @@
+html {
+  //font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: 'Roboto Slab', serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+h1 {
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;    
+  color: DarkBlue;
+  text-shadow: 3px 3px 1px white;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;    
+  color: darkblue;
+  text-shadow: 3px 3px 1px white;
+}
+
+h4 {
+  font-size: 16px;
+  text-align: left;
+  margin: 0;
+  padding: 4px 40px 40px;    
+  color: darkblue;
+  text-shadow: 3px 3px 1px white;
+}
+
+p, li {
+  font-size: 14px;    
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+
+body {
+  //width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  border: 1px solid white;
+}
