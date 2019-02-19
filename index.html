@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Grodno Companies & Jobs</title>
+    
+    <meta name="author" content="HTP Grodno Lab">
+    <meta name="description" content="A graph of the HTP residents in Grodno and their vacancies">
+
+    <meta property="og:description" content="Grodno Companies linked with their vacancies">
+    <meta property="og:title" content="Metadata; HTP &lt;head&gt;, Grodno">
+
+    <link rel="Shortcut Icon" href="ghtp.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Компании и их вакансии</h1>
+
+    <p>Визуализация связи гродненских компаний-резидентов ПВТ и их вакансий</p>
+	
+	<p>Граф построен при помощи пакета <a href="https://graphviz.org">GraphViz </a>. Формат представления -- circo. Исходный код в <a href="com_jobs.dot"> dot-файле.</a> </p>
+
+	<p>Команда для генерации графа:</p>
+	<h4>dot.exe -Tsvg -Kcirco com_jobs.dot -o graph.svg</h4>
+	
+	<h2>Граф</h2>
+	<p>Щелкните изображение для увеличения</p>
+	
+	<img width=600 src="images/graph01.png" alt="Circo png graph">
+	
+	
+	
+	
+	<script src="scripts/main.js"></script>
+  </body>
+</html>
